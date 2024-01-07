@@ -1,0 +1,16 @@
+dj_database_url==0.5.0
+dj_static==0.0.6
+Django==3.2
+djangorestframework==3.13.1
+Markdown==3.2.2
+python-decouple==3.6
+django-markdownify
+django-widget-tweaks
+django-cors-headers
+django_storages==1.13.1
+google-api-python-client==1.10.0
+google-auth-httplib2==0.0.4
+google-auth-oauthlib==0.4.1
+google-cloud-bigquery==2.31.0
+google-cloud-core==2.3.2
+google-cloud-storage==2.5.0
