@@ -10,11 +10,11 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Didivu.vn",
+        title="project.vn",
         default_version='v1',
         description="Test description",
         terms_of_service="https://www.google.com/policies/terms/",
-        contact=openapi.Contact(email="contact@didivu.vn"),
+        contact=openapi.Contact(email="contact@project.vn"),
         license=openapi.License(name="Test License"),
     ),
     public=True,

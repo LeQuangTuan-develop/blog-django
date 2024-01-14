@@ -56,8 +56,8 @@ router.register(r'api-series-fxeater', blogFXViews.SeriesViewset,
                 basename='blog-series-fxeater')
 
 
-router.register(r'test', TestView,
-                basename='test-view')
+# router.register(r'test', TestView,
+#                 basename='test-view')
 
 urlpatterns = [
     path('', include(router.urls)),
