@@ -3,7 +3,7 @@ from django.utils.html import format_html_join, format_html
 
 # Register your models here.
 from .models import *
-from .test import TestModel
+# from .test import TestModel
 
 
 @admin.register(Blog)
@@ -32,4 +32,4 @@ class BlogSeriesAdmin(admin.ModelAdmin):
     list_filter = ('domain',)
 
 
-admin.site.register(TestModel)
+# admin.site.register(TestModel)
